@@ -1,0 +1,110 @@
+<!--Josh Boettcher Module 12.3 3/4/2022-->
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>Josh Boettcher's Landing Page</title> 
+            <link href = "boettcher_12.3.css" rel = "stylesheet" type = "text/css"> 
+            <link href = "https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&display=swap" rel = "stylesheet">
+    </head>
+    <body>
+        <div id = "navbar"> 
+            <a href = "#hobbies">Hobbies</a>
+            <a href = "#experience">Experience</a>
+            <a href = "#contact">Contact Me</a>
+        </div>
+        <header>
+            <h1>Josh Boettcher</h1>
+        </header>
+        <h2 id = "hobbies">Hobbies</h2> 
+        <div id = "containerhob">
+            <div id = "image-gallery">
+                <div class = "grid-item">               
+                    <img src = "images/elden-ring.jpg" alt = "Elden Ring">
+                    <div class = "gaming">                            
+                            <p class = "text">
+                                <h3>Video Games</h3>
+                                One of Josh's favorite hobbies is playing video games and is currently working his way through a challenging and fun game called Elden Ring.  
+                            </p>
+                    </div>
+                </div>
+            <div class = "grid-item">
+                <img src = "images/vikings.PNG" alt = "Minnesota Vikings">
+                <div class = "football">                    
+                        <p class = "text">
+                            <h3>Sports</h3>
+                            Josh also enjoys watching sports, particularly the Minnesota Vikings and Minnesota Timberwolves.
+                        </p>
+                </div>
+            </div>
+            <div class = "grid-item">
+                <img src = "images/dark-tower.jpg" alt="The Dark Tower">
+                <div class = "reading">                    
+                        <p class = "text">
+                            <h3>Reading</h3>
+                            Another hobby of Josh's is reading books.  Josh's favorite author is Stephen King and his favorite books are the Dark Towers series. 
+                        </p>
+                </div>
+            </div>
+        </div>
+        <div id = "containerexperience">
+            <h2 id = "experience">Experience</h2> 
+            <div id = "image-gallery">
+                <div class = "career">                    
+                    <div class = "text">
+                        <h3>Merchandise Planning</h3>
+                            <p> Josh has two years of experience working as a Merchandise Planner for Hayneedle.com.  
+                                Some of his primary responsibilities in this role included forecasting and building assortment plans,
+                                analyzing product trends, reviewing sku profitability, and leading a monthly open to buy meeting with the executive team. 
+                            </p>
+                    </div>
+                </div>
+                <div class = "career">                    
+                    <div class = "text">
+                        <h3>Pricing Analyst</h3>
+                            <p> Josh also spent two years working at Hayneedle.com as a Pricing Analyst.  
+                                Some of his primary responsibilities in this role included analyzing product margins and making price adjustments
+                                to ensure that products were priced competitively but profitable, and collaborating with the buying team on promotional pricing.
+                            </p>
+                    </div>
+                </div>
+                <div class = "career">                    
+                    <div class = "text">
+                        <h3>Demand Planning</h3>
+                            <p> Josh spent two years working at Lozier as a Demand Planning Analyst.
+                                Some of his primary responsibilities in this role included reviewing sales forecasts with the executive team,
+                                creating the demand plan for financial forecasting, and leading continuous improvement initiatives to improve the planning process. 
+                            </p>
+                    </div>
+                </div>
+            </div>
+            <h2 id = "contact">Contact Me</h2> 
+            <div id = "container">
+                <div id = "image">
+                        <img class = "josh" src="images/Josh.png" alt="Josh Boettcher">
+                </div>
+            </div>
+            <form action = "mailto:jbekter@yahoo.com"
+                method = "POST"
+                enctype = "multipart/form-data"
+                name = "EmailForm">
+                <div class = "entry">
+                    <label for = "firstname">First name:</label>
+                    <input type = "text" id= "firstname" class = "input" name = "firstname" />
+                </div>
+                <div class = "entry">
+                    <label for = "lastname">Last name:</label>
+                    <input type = "text" id = "lastname" class = "input" name = "lastname" />
+                </div>
+                <div class = "entry">
+                    <label for = "email">Email:</label>
+                    <input type = "text" id = "email" class = "input" name = "email" />
+                </div>
+                <div class = "entry">
+                    <button type = "submit" class = "btn btn-primary full-width">Send Message</button>
+                </div>
+            </form>  
+            </div>
+        </div>
+        </div>
+    </body>
+</html>
